@@ -80,10 +80,10 @@ const Projects = () => {
                 
                 {/* Links */}
                 <div className="mt-4 flex items-center gap-4">
-                  <a href={project.gitlink} className="text-slate-400 hover:text-white transition-colors">
+                  <a href={project.gitlink} target="_blank" className="text-slate-400 hover:text-white transition-colors">
                     <Github size={16} />
                   </a>
-                  {project.link?<a href={project.link} className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-400 transition-colors">
+                  {project.link?<a href={project.link} target="_blank" className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-400 transition-colors">
                     Deployment <ArrowRight size={12} />
                   </a> : ''}
                 </div>
