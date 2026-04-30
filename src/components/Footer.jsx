@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="relative bg-[#050505] pt-24 pb-10 px-6 md:px-24 border-t border-white/5 overflow-hidden">
+    <footer id="contact" className="relative bg-[#050505] pt-24 pb-10 px-6 md:px-24 border-t border-white/10 overflow-hidden">
       
       {/* BACKGROUND TEXT (Watermark Style) */}
       <div className="absolute bottom-[-10%] right-[-5%] text-[8rem] md:text-[15rem] font-black text-white/[0.02] pointer-events-none select-none">
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* STATUS CARD (The Modern Polish) */}
           <div className="lg:col-span-4">
-            <div className="p-8 rounded-2xl bg-white/[0.02] border border-white/5 relative group">
+            <div className="p-8 rounded-2xl bg-white/[0.02] border border-white/10 relative group">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
                 <span className="text-[10px] uppercase tracking-widest text-white font-bold">Open for Collaboration</span>
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         {/* METADATA FOOTER */}
-        <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-8 text-[9px] font-mono text-slate-600 uppercase tracking-widest">
             <span className="flex items-center gap-2">
               <div className="w-1 h-1 bg-blue-500 rounded-full" /> 
@@ -96,7 +96,7 @@ const Footer = () => {
             className="group flex items-center gap-3 text-slate-300 hover:text-white transition-colors text-[10px] font-bold uppercase tracking-widest"
           >
             Top 
-            <div className="w-8 h-8 rounded-full border border-white/5 flex items-center justify-center group-hover:border-white transition-colors">
+            <div className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center group-hover:border-white transition-colors">
               <ArrowRight size={12} className="-rotate-90 group-hover:-translate-y-1 transition-transform" />
             </div>
           </button>

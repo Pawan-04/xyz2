@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section className="bg-[#050505] py-24 px-4 md:px-8 border-t border-white/5">
+    <section className="bg-[#050505] py-24 px-4 md:px-8 border-t border-white/10">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-white mb-6 tracking-tighter">
@@ -21,10 +21,10 @@ const Education = () => {
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl text-xs font-bold text-gray-500 uppercase tracking-widest">
+            <div className="p-4 bg-white/[0.02] border border-white/10 rounded-xl text-xs font-bold text-gray-500 uppercase tracking-widest">
               CGPA: 9+
             </div>
-            <div className="p-4 bg-white/[0.02] border border-white/5 rounded-xl text-xs font-bold text-gray-500 uppercase tracking-widest">
+            <div className="p-4 bg-white/[0.02] border border-white/10 rounded-xl text-xs font-bold text-gray-500 uppercase tracking-widest">
               TCS NQT: Qualified
             </div>
           </div>

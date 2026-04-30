@@ -57,10 +57,10 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="group flex items-center gap-5 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-blue-500/20 transition-all duration-300"
+              className="group flex items-center gap-5 p-4 rounded-xl bg-white/[0.02] border border-white/10 hover:bg-white/[0.05] hover:border-blue-500/20 transition-all duration-300"
             >
               {/* Small Thumbnail */}
-              <div className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-lg bg-neutral-900 border border-white/5">
+              <div className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-lg bg-neutral-900 border border-white/10">
                 <img 
                   src={project.image} 
                   alt={project.title}

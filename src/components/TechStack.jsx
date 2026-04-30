@@ -29,7 +29,7 @@ const TechStack = () => {
   };
 
   return (
-    <section className="py-24 bg-[#050505] overflow-hidden border-y border-white/5 " id='techstack' >
+    <section className="py-24 bg-[#050505] overflow-hidden border-y border-white/10 " id='techstack' >
       <div className="max-w-7xl mx-auto px-6 mb-12 ">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
@@ -56,7 +56,7 @@ const TechStack = () => {
           {[...techs, ...techs, ...techs].map((tech, index) => (
             <div 
               key={index}
-              className="flex items-center gap-4 px-8 py-4 bg-white/[0.02] border border-white/5 rounded-2xl hover:bg-white/[0.05] hover:border-blue-500/20 transition-all duration-300 group"
+              className="flex items-center gap-4 px-8 py-4 bg-white/[0.02] border border-white/10 rounded-2xl hover:bg-white/[0.05] hover:border-blue-500/20 transition-all duration-300 group"
             >
               <img 
                 src={tech.icon} 
