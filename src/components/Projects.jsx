@@ -33,7 +33,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="work" className="bg-[#050505] py-24 px-6 md:px-12">
+    <section id="work" className="bg-[#050505] py-24 px-4 sm:px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
@@ -42,7 +42,7 @@ const Projects = () => {
             <h2 className="text-sm font-bold text-blue-500 uppercase tracking-[0.4em]">// Projects</h2>
             <div className="w-12 h-[1px] bg-white/20"></div>
           </div>
-          <a href="#" className=" flex gap-3 text-[10px] uppercase tracking-widest text-slate-500 hover:text-white transition-colors">Top 
+          <a href="#" className=" flex gap-3 text-[10px] uppercase tracking-widest text-slate-300 hover:text-white transition-colors">Top 
              <ArrowRight size={12} className="-rotate-90 group-hover:-translate-y-1 transition-transform" />
           </a>
           
@@ -60,7 +60,7 @@ const Projects = () => {
               className="group flex items-center gap-5 p-4 rounded-xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-blue-500/20 transition-all duration-300"
             >
               {/* Small Thumbnail */}
-              <div className="h-24 w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-lg bg-neutral-900 border border-white/5">
+              <div className="h-20 w-20 sm:h-24 sm:w-24 md:h-28 md:w-28 shrink-0 overflow-hidden rounded-lg bg-neutral-900 border border-white/5">
                 <img 
                   src={project.image} 
                   alt={project.title}
@@ -72,15 +72,15 @@ const Projects = () => {
               <div className="flex-1 min-w-0 pr-4">
                 <div className="flex items-center justify-between mb-1">
                   <h3 className="text-base font-bold text-white group-hover:text-blue-400 transition-colors">{project.title}</h3>
-                  <span className="text-[9px] font-mono text-slate-500 uppercase tracking-tighter">{project.tech}</span>
+                  <span className="text-[9px] font-mono text-slate-300 uppercase tracking-tighter">{project.tech}</span>
                 </div>
-                <p className="text-xs text-slate-400 leading-relaxed line-clamp-2 font-light">
+                <p className="text-xs text-slate-300 leading-relaxed line-clamp-2 font-light">
                   {project.desc}
                 </p>
                 
                 {/* Links */}
                 <div className="mt-4 flex items-center gap-4">
-                  <a href={project.gitlink} className="text-slate-600 hover:text-white transition-colors">
+                  <a href={project.gitlink} className="text-slate-400 hover:text-white transition-colors">
                     <Github size={16} />
                   </a>
                   {project.link?<a href={project.link} className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-widest text-slate-400 hover:text-blue-400 transition-colors">

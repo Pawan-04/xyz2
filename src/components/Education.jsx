@@ -1,13 +1,13 @@
 const Education = () => {
   return (
-    <section className="bg-[#050505] py-24 px-4 border-t border-white/5">
+    <section className="bg-[#050505] py-24 px-4 md:px-8 border-t border-white/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center">
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-white mb-6 tracking-tighter">
             Academic & Achievements
           </h2>
 
-          <p className="text-gray-400 leading-relaxed mb-8 font-light">
+          <p className="text-slate-300 leading-relaxed mb-8 font-light">
             Currently pursuing MCA from 
             <span className="text-white font-medium"> Bennett University (The Times Group)</span> 
             with a CGPA of <span className="text-white font-medium">9+</span>. 
@@ -32,7 +32,7 @@ const Education = () => {
 
         <div className="w-full md:w-1/3 p-8 bg-blue-600/5 border border-blue-500/20 rounded-3xl">
           <h4 className="text-white font-bold mb-4">Certifications</h4>
-          <ul className="text-sm text-gray-400 space-y-3 font-light">
+          <ul className="text-sm text-slate-300 space-y-3 font-light">
             <li className="flex items-center gap-2">✔ <a href="https://drive.google.com/file/d/1bJa17SkEu_iqz_tbq4UeaJuMXtZnfX9I/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:underline">Front-end Domination</a> </li>
             <li className="flex items-center gap-2">✔ <a href="https://drive.google.com/file/d/1Pf98x2fiLJod5CjfvpNkpVDteMc6JJNs/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="hover:underline">Infosys: NLP  using Python</a> </li>
             <li className="flex items-center gap-2">✔ <a href="https://coursera.org/verify/UUV0MBHJKXTN" target="_blank" rel="noopener noreferrer" className="hover:underline">Generative AI: Introduction and Applications</a> </li>

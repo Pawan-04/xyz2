@@ -36,7 +36,7 @@ const TechStack = () => {
             <h2 className="text-blue-500 font-mono text-[10px] uppercase tracking-[0.4em] mb-2">// Skills</h2>
             <h3 className="text-3xl font-bold text-white tracking-tighter">Technical Toolkit</h3>
           </div>
-          <p className="text-slate-500 text-sm font-light max-w-xs md:text-right italic">
+          <p className="text-slate-300 text-sm font-light max-w-xs md:text-right italic">
             Learning by building web applications and experimenting with new ideas.
           </p>
         </div>
@@ -66,7 +66,7 @@ const TechStack = () => {
                   filter: 'invert(58%) sepia(19%) saturate(541%) hue-rotate(113deg) brightness(91%) contrast(88%)' 
                 } : {}}
               />
-              <span className="text-slate-400 font-bold uppercase text-[10px] tracking-[0.2em] group-hover:text-white transition-colors">
+              <span className="text-slate-300 font-bold uppercase text-[10px] tracking-[0.2em] group-hover:text-white transition-colors">
                 {tech.name}
               </span>
             </div>

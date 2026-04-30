@@ -8,10 +8,10 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="relative bg-[#050505] pt-24 pb-10 px-8 md:px-24 border-t border-white/5 overflow-hidden">
+    <footer id="contact" className="relative bg-[#050505] pt-24 pb-10 px-6 md:px-24 border-t border-white/5 overflow-hidden">
       
       {/* BACKGROUND TEXT (Watermark Style) */}
-      <div className="absolute bottom-[-10%] right-[-5%] text-[15rem] font-black text-white/[0.02] pointer-events-none select-none">
+      <div className="absolute bottom-[-10%] right-[-5%] text-[8rem] md:text-[15rem] font-black text-white/[0.02] pointer-events-none select-none">
         PAWAN.
       </div>
 
@@ -23,7 +23,7 @@ const Footer = () => {
             <h2 className="text-3xl font-bold text-white tracking-tighter mb-8">
               P<span className="text-blue-500">.</span>
             </h2>
-            <p className="text-slate-500 text-lg font-light leading-relaxed mb-10 max-w-sm">
+            <p className="text-slate-300 text-lg font-light leading-relaxed mb-10 max-w-sm">
   Building web applications and exploring AI-based features. 
    <span className="text-white"> - Delhi, India.</span>
 </p>
@@ -38,7 +38,7 @@ const Footer = () => {
       href={social.link} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="text-slate-500 hover:text-white transition-colors duration-300"
+      className="text-slate-300 hover:text-white transition-colors duration-300"
     >
       {social.icon}
     </a>
@@ -48,12 +48,12 @@ const Footer = () => {
           </div>
 
           {/* QUICK NAVIGATION */}
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-3 flex flex-col items-center text-center lg:items-start lg:text-left">
             <h4 className="text-[10px] uppercase tracking-[0.4em] text-blue-500 font-bold mb-8">Navigation</h4>
-            <ul className="space-y-4 text-sm font-medium">
-              <li><a href="#work" className="text-slate-500 hover:text-white transition-colors">Selected Work</a></li>
-              <li><a href="#experience" className="text-slate-500 hover:text-white transition-colors">Career Path</a></li>
-              <li><a href="#techstack" className="text-slate-500 hover:text-white transition-colors">Technical Stack</a></li>
+            <ul className="space-y-4 text-sm font-medium mx-auto lg:mx-0">
+              <li><a href="#work" className="text-slate-300 hover:text-white transition-colors">Selected Work</a></li>
+              <li><a href="#experience" className="text-slate-300 hover:text-white transition-colors">Career Path</a></li>
+              <li><a href="#techstack" className="text-slate-300 hover:text-white transition-colors">Technical Stack</a></li>
               <li className="text-slate-700 cursor-not-allowed">Case Studies (Soon)</li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
                 <span className="text-[10px] uppercase tracking-widest text-white font-bold">Open for Collaboration</span>
               </div>
-              <p className="text-sm text-slate-500 font-light mb-8 italic">
+              <p className="text-sm text-slate-300 font-light mb-8 italic">
                 "Building intelligent applications, one solution at a time."
               </p>
               <a className="w-full flex items-center justify-between group/btn py-4 px-6 bg-white text-black rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-blue-500 hover:text-white transition-all duration-500"
@@ -93,7 +93,7 @@ const Footer = () => {
 
           <button 
             onClick={scrollToTop}
-            className="group flex items-center gap-3 text-slate-500 hover:text-white transition-colors text-[10px] font-bold uppercase tracking-widest"
+            className="group flex items-center gap-3 text-slate-300 hover:text-white transition-colors text-[10px] font-bold uppercase tracking-widest"
           >
             Top 
             <div className="w-8 h-8 rounded-full border border-white/5 flex items-center justify-center group-hover:border-white transition-colors">

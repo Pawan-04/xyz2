@@ -35,7 +35,7 @@ function App() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="flex flex-col gap-20"
+          className="flex flex-col gap-8 md:gap-20"
         >
           <Navbar />
           <Hero />

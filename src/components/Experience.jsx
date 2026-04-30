@@ -15,7 +15,7 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="bg-[#050505] py-24 px-8">
+    <section id="experience" className="bg-[#050505] py-24 px-4 md:px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-sm font-bold text-blue-500 uppercase tracking-[0.4em] mb-16 text-center">// Career Path</h2>
         <div className="space-y-12">
@@ -26,7 +26,7 @@ const Experience = () => {
               <div className="flex-1 ">
                 <h3 className="text-white font-bold text-xl mb-1">{item.role}</h3>
                 <a className="text-blue-400 text-sm mb-4 pointer" href="https://bangmetric.com/">{item.company}</a>
-                <p className="text-gray-500 text-sm font-light leading-relaxed">{item.details}</p>
+                <p className="text-slate-300 text-sm font-light leading-relaxed">{item.details}</p>
               </div>
             </div>
           ))}
